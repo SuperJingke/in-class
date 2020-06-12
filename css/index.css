@@ -1,0 +1,112 @@
+
+body{
+    background-color: #D1E5FF;
+    width: auto;
+    margin:auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.menu-container {
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+
+}
+
+.topnav{
+    overflow: hidden;
+    font-family: inherit;
+
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.topnav a:hover{
+    background-color: #dddddd;
+    color: black;
+}
+
+.topnav a.active {
+    color: blanchedalmond;
+    background-color:#5B87FF;
+}
+
+.topnav .search-container{
+    float: right;
+    padding: 1px 6px;
+}
+
+.topnav input[type=text]{
+    padding: 5px;
+    margin-top: 8px;
+    font-size: 16px;
+    border: none;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+img{
+    justify-content: center;
+    justify-self: center;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-gap: 1px;
+    width: auto;
+    list-style: none;
+
+}
+.item1{
+    grid-area: 1/1/3/2;
+}
+.item2{
+    grid-area: 1/2/2/3;
+   
+}
+
+.item3{
+    grid-area: 2/2/3/3;
+
+}
+.item4{
+    grid-area: 3/2/4/3;
+
+}
+.item5{
+    grid-area: 3/1/4/2;
+}
+
+.grid-item{
+
+}
+
+.footer{
+    text-align: center;
+    justify-content: center;  
+}
+
+.footer div {
+    text-align: center;
+}
+.bottem-item{
+    text-align: center;
+
+
+}
